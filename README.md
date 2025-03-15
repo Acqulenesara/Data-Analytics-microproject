@@ -25,33 +25,6 @@ The application allows users to **upload transaction data (CSV format)**, proces
 
 ---
 
-## **Installation & Setup**  
-
-### **1️⃣ Clone the Repository**  
-```bash
-git clone https://github.com/yourusername/customer-segmentation.git
-cd customer-segmentation
-```
-
-### **2️⃣ Create a Virtual Environment**  
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### **3️⃣ Install Dependencies**  
-```bash
-pip install -r requirements.txt
-```
-
-### **4️⃣ Run the Application**  
-```bash
-python app.py
-```
-Then, open **`http://127.0.0.1:5000/`** in your web browser.  
-
----
-
 ## **Usage**  
 
 1️⃣ **Upload CSV File** – The dataset should contain at least:  
@@ -63,18 +36,6 @@ Then, open **`http://127.0.0.1:5000/`** in your web browser.
 2️⃣ **Processing & Analysis** – The app performs **RFM analysis** and applies clustering algorithms.  
 
 3️⃣ **Visualization & Insights** – Results are displayed in tabular form along with **interactive cluster plots**.  
-
----
-
-## **Project Structure**  
-```
-customer-segmentation/
-│-- static/                # CSS, JS, Images
-│-- templates/             # HTML files (upload.html, index.html)
-│-- app.py                 # Main Flask application
-│-- requirements.txt        # Python dependencies
-│-- README.md               # Project documentation
-```
 
 ---
 
